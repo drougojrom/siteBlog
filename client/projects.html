@@ -1,0 +1,82 @@
+<template name="projects">
+	<h1>Projects</h1>
+
+	<p>That is my page with projects. Some of them were written during the time I was taking my specialization in web-development on Coursera (Goldsmiths and University of London), some of them are my own.</p>
+	<p>I have also been thinking about adding some pages, which I have written with purely HTML and JavaScript, but later I decided to concentrate on more sophisticated projects. I don`t have a lot of them, but still :) </p>
+	<p>You can find more information and source code on <a href="">GitHub</a></p>
+
+	<ul>
+		<li>Image_Share</li>
+		<p>This web-application allows you to upload images and rate them with stars. In order to start it on your own machine you need to remove <strong>insecure</strong> package, while keeping it makes web-application on Meteor less secure. You also need to add these packages (you can find them <a href="https://atmospherejs.com">on atmospherejs site</a>.)
+		<ol>
+			<li>twbs:bootstrap</li>
+			<li>accounts-password</li>
+			<li>accounts-ui. These two packages provide user accounts.</li>
+			<li>barbatus:stars-rating. That package provides rating system</li>
+			<li>iron:router. Routing package.</li>
+
+		</ol> 
+		Here is how the main page looks like:
+		<br>
+		<center><img class="main_page" src="image_share.png"/></center>
+		</p>
+
+
+		<li>SiteAce</li>
+		<p>This web-application works in pretty the same way as Image_Share, but there are also few very imortant features. First of all, i removed autopublish package of Meteor and made my application more secure. After that I have implemented the set of other packages:
+		<ol>
+			<li>iron:router</li>
+			<li>twbs:bootstrap</li>
+			<li>accounts-password</li>
+			<li>accounts-ui. I have already used them in my previous project.</li>
+			<li>arkham:comments-ui. This provides the possibility to comment any site (with system of 'likes' and post discussions).</li>
+			<li>easy:search 2.0.5. Search feature through all the sites uploaded to the system.</li>
+		</ol>
+		So I made this project a little bit more complex.
+		Here is how the main page looks like:
+		<br>
+		<center><img class="main_page" src="siteace.jpg"></center>
+		</p>
+		<li>SiteBlog</li>
+		<p>My third project you can see right now :) Here a have also used some packages from Meteor to make my applicatin more sophisticated:
+		<ol>
+			<li>iron:router</li>
+			<li>twbs:bootstrap</li>
+			<li>accounts-password</li>
+			<li>accounts-ui. I have already used them in my previous project.</li>
+			<li>liberation:shareit. Social sharing with Facebook and Twitter.</li>
+			<li>ryw:blog. Blog engine.</li>
+		</ol>
+		Here is how the main page looks like:
+		<br>
+		<center><img class="main_page" src="siteBlog.png"></center>
+		</p>
+		<li>TextCircle</li>
+		<p>Text editor with HTML and JavaScript functionality. It also has private filter for the documents, comments and cooperative text editing. I have used these packages:
+			<ol>
+				<li>accounts-password</li>
+				<li>iron:router</li>
+				<li>twbs:bootstrap I have already used them.</li>
+				<li>aldeed:collection2</li>
+				<li>aldeed:autoform. Forms, insert and Schema</li>
+				<li>ian:accounts-ui-bootstrap-3. More sophisticated package for accounts.</li>
+				<li>mizzao:sharejs-codemirror.</li>
+				<li>babrahams:editable-text. Editable text drop-in</li>
+			</ol>
+			<p>In this project I`ve also removed <strong>insecure</strong> and <strong>autopublish</strong> packages.</p>
+		Here is how the main page looks like:
+		<br>
+		<center><img class="main_page" src="textCircle.png"></center>
+		</p>
+
+		<p>I have also made two small projects with little coding:</p>
+
+		<li>Music_Machine</li>
+		<p>A small interactive music station and also my first project with maxim.js, which was used for different music effects. Insecure and autopublish were not removed.
+		</p>
+
+
+		<li>Messenger-project. My part of work in it is simply implementing some security features of Meteor, then adding 'emojis' and some user-interface functionality (for example user avatars in chats). </li>
+	</ul>
+
+</template>

@@ -1,0 +1,15 @@
+.img_circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  	float: right;
+}
+
+.main_page {
+	max-width: 600px;
+	max-height: 500px;
+
+	
+}
