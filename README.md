@@ -1,6 +1,6 @@
 # siteBlog
 Blog platform with portfolio
-		<p>My third project you can see right now :) Here a have also used some packages from Meteor to make my applicatin more sophisticated:
+		<p>My third project you can see right now :) Here a have also used some packages from Meteor to make my application more sophisticated:
 		<ol>
 			<li>iron:router</li>
 			<li>twbs:bootstrap</li>
